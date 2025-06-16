@@ -3,9 +3,9 @@ import pickle
 import time
 import pandas as pd
 
-st.set_page_config(page_title='ML Portfolio', page_icon='📊', layout='wide')
+st.set_page_config(page_title='Prima ML Portfolio', page_icon='📊', layout='wide')
 
-st.write('Welcome to the ML Portfolio App!')
+st.write('Welcome to the Prima ML Portfolio App!')
 
 select_var=st.sidebar.selectbox("Want to open about?",("Home","Iris Species"))
 
